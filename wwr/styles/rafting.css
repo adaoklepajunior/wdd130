@@ -215,3 +215,90 @@ section img {
 }
 
 
+/* Contact Us part */
+/* Employee table */
+
+.employee-section {
+    margin-top: 20px;
+}
+
+.employee-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.employee-grid h2 {
+    grid-column: 1 / -1;
+    background-image: linear-gradient(to right, #a2a7a8, #534d4d);
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    padding: 10px;
+}
+
+.employee img {
+    width: 100%;
+    height: auto;
+}
+
+.employee p {
+    margin: 10px 0;
+}
+
+/* Contact Form */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.contact-form {
+    margin-top: 40px;
+}
+.contact-form h2 {
+    text-align: center;
+}
+
+.radio-form {
+    display: inline-block;
+    margin-top: 1px;
+    width: auto;
+} 
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 80%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    display: inline-block;
+}
+form textarea {
+    margin-left: 4%;
+    resize: none;
+}
+
+form input[type="checkbox"],
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+form button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+label[for="message"] {
+    display: block;
+    text-align: start;
+}
+
