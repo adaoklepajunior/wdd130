@@ -218,18 +218,18 @@ section img {
 /* Contact Us part */
 /* Employee table */
 
-.staff-section {
+.employee-section {
     margin-top: 20px;
 }
 
-.staff-grid {
+.employee-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     text-align: center;
 }
 
-.staff-grid h2 {
+.employee-grid h2 {
     grid-column: 1 / -1;
     background-image: linear-gradient(to right, #a2a7a8, #534d4d);
     color: rgb(255, 255, 255);
@@ -237,12 +237,12 @@ section img {
     padding: 10px;
 }
 
-.staff img {
+.employee img {
     width: 100%;
     height: auto;
 }
 
-.staff p {
+.employee p {
     margin: 10px 0;
 }
 
