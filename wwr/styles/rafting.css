@@ -355,3 +355,97 @@ label[for="message"] {
     padding: 10px;
     text-align: center;
 }
+
+/* Home Page CSS */
+.homepage-hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.homepage-hero img {
+    width: 100%;
+    height: auto;
+}
+
+.homepage-hero-title {
+    width : 100%;
+    height: 80px;
+    color: #ec8836;
+    position : absolute;
+    top : 5px;
+    text-align : center;
+    background-color : rgba(36, 36, 29, 0.8);
+    padding : 10px 0;
+    font-size: 2rem;
+	font-family: Acme, Arial, sans-serif;
+}
+
+.homepage-reasons, .homepage-more-reasons {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #cecdca;
+    border-radius: 10px;
+}
+
+.homepage-tellme {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #cecdca;
+    border-radius: 10px;
+    width: 720px;
+    margin: 0 auto;
+}
+
+.h3 {
+    font-size: 2rem;
+}
+
+.homepage-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    text-align: center;
+}
+
+.homepage-grid-header {
+    grid-column: span 2;
+    text-align: center;
+}
+
+.homepage-grid-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.homepage-grid-item-02 img {
+    width: 100%;
+    height: 427px;
+    border-radius: 10px;
+}
+
+.homepage-grid-footer {
+    grid-column: span 2;
+    text-align: center;
+}
+
+.homepage-tellme form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.homepage-tellme input[type="text"],
+.homepage-tellme input[type="email"] {
+    padding: 10px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: #faf8f8;
+    color: #2c2b2b;
+    width:700px;
+}
+
+.homepage-newsletter button {
+    align-self: flex-start;
+    padding: 10px 20px;
+}
