@@ -302,3 +302,56 @@ label[for="message"] {
     text-align: start;
 }
 
+/* Trips CSS */
+.call-to-action {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.trip-descriptions {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.trip {
+    background-color: #353534;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    width: 30%;
+    height: 550px
+}
+.trip h2 {
+    color: #f2f2f3;
+}
+
+.trip img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.trip p {
+    color: #f2f2f3;
+}
+
+.the-table {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.the-table h2 {
+    text-align: center;
+}
+
+.the-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.the-table th, .the-table td {
+    border: 1px solid #666;
+    padding: 10px;
+    text-align: center;
+}
